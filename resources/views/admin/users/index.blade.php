@@ -56,7 +56,7 @@
             </thead>
             <tbody>
             	@foreach($users as $k=>$v)
-                <tr>
+                <tr  style="text-align: center;">
 				<td>{{ $v->id }}</td>
 				<td>{{ $v->uname }}</td>
 				<td>{{ $v->email }}</td>

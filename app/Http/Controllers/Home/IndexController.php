@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Cates;
+use App\Models\Goods;
 
 class IndexController extends Controller
 {   
@@ -26,10 +27,11 @@ class IndexController extends Controller
      */
     public function index()
     {   
-        //$cates_data = self::getPidCateData(0);
+        // 获取商品数据
+        $goods = Goods::all();
 
-        //return view('home.index.index',['cates_data'=>$cates_data]);
-        return view('home.index.index');
+        // 加载视图
+        return view('home.index.index',['goods'=>$goods]);
     }
 
     /**

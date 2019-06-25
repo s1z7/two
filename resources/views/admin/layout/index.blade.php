@@ -133,6 +133,22 @@
                             <li><a href="/admin/cates/create">  分类添加</a></li>
                         </ul>
                     </li>
+
+                    <li class="active">
+                        <a href="#"><i class="icon-github"></i> 品牌管理</a>
+                        <ul>
+                            <li><a href="/admin/brands">  品牌列表</a></li>
+                            <li><a href="/admin/brands/create">  品牌添加</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="active">
+                        <a href="#"><i class="icon-shopping-cart"></i>商品管理</a>
+                        <ul>
+                            <li><a href="/admin/goods">  商品列表</a></li>
+                            <li><a href="/admin/goods/create">  商品添加</a></li>
+                        </ul>
+                    </li>
                     
                 </ul>
             </div>
